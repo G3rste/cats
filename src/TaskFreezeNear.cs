@@ -31,7 +31,6 @@ namespace Cats
             targetEntity = partitionUtil.GetNearestEntity(entity.ServerPos.XYZ, seekingRange, target => entityCodesExact.Contains(target.Code.Path)) as EntityAgent;
             if (targetEntity == null)
             {
-                entity.Api.Logger.Debug(entityCodesExact[0]);
                 return false;
             }
             return true;
