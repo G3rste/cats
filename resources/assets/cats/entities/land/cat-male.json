@@ -329,8 +329,7 @@
                         "attackDurationMs": 800,
                         "damagePlayerAtMs": 500,
                         "animation": "Attack",
-                        "animationSpeed": 2.5,
-                        "sound": "game:creature/wolf/attack"
+                        "animationSpeed": 2.5
                     },
                     {
                         "code": "seekentitybasic",
@@ -407,9 +406,6 @@
                                 "fromHour": 1,
                                 "toHour": 3
                             }
-                        ],
-                        "stopOnNearbyEntityCodes": [
-                            "player"
                         ],
                         "stopRange": 10,
                         "stopOnHurt": true
