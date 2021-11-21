@@ -5,9 +5,16 @@
         "value": {
             "code": "freezeNear",
             "entityCodesExact": [
-                "cat-male", "cat-female"
+                "cat-male",
+                "cat-female"
             ],
-            "priority": 5,
+            "priorityByType": {
+                "*-normal": 2.4,
+                "*-deep": 1.9,
+                "*-tainted": 1.4,
+                "*-corrupt": 1.2,
+                "*-nightmare": 0.9
+            },
             "movespeed": 0.018,
             "seekingRange": 8,
             "animationSpeed": 1.3,
