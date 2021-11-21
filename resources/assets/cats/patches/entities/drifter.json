@@ -1,14 +1,18 @@
 [
     {
         "op": "add",
-        "path": "/server/behaviors/8/aitasks/2/entityCodes/-",
-        "value": "cat-male",
-        "file": "game:entities/land/drifter.json"
-    },
-    {
-        "op": "add",
-        "path": "/server/behaviors/8/aitasks/2/entityCodes/-",
-        "value": "cat-female",
+        "path": "/server/behaviors/8/aitasks/-",
+        "value": {
+            "code": "freezeNear",
+            "entityCodesExact": [
+                "cat-male", "cat-female"
+            ],
+            "priority": 5,
+            "movespeed": 0.018,
+            "seekingRange": 8,
+            "animationSpeed": 1.3,
+            "animation": "CrawlIdle"
+        },
         "file": "game:entities/land/drifter.json"
     }
 ]
