@@ -1,0 +1,14 @@
+[
+    {
+        "op": "add",
+        "path": "/server/behaviors/8/aitasks/2/entityCodes/-",
+        "value": "cat-male",
+        "file": "game:entities/land/drifter.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/8/aitasks/2/entityCodes/-",
+        "value": "cat-female",
+        "file": "game:entities/land/drifter.json"
+    }
+]
