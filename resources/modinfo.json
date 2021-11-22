@@ -5,9 +5,9 @@
     "side": "universal",
     "author": "G3rste",
     "description": "Mod that introduces cats as a new pet to vintage story.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependency": {
         "game": "1.15.6",
-        "petai": "1.0.0"
+        "petai": "1.0.1"
     }
 }
