@@ -518,9 +518,9 @@
                     "var": 0
                 },
                 "insideBlockCodes": [
-                    "air",
-                    "tallgrass-*",
-                    "snowlayer-1"
+                    "game:air",
+                    "game:tallgrass-*",
+                    "game:snowlayer-1"
                 ],
                 "minTemp": -15,
                 "maxTemp": 15,
@@ -544,9 +544,9 @@
                     "var": 0
                 },
                 "insideBlockCodes": [
-                    "air",
-                    "tallgrass-*",
-                    "snowlayer-1"
+                    "game:air",
+                    "game:tallgrass-*",
+                    "game:snowlayer-1"
                 ],
                 "minTemp": -15,
                 "maxTemp": 15,
