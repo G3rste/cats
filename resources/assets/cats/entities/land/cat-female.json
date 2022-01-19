@@ -2,12 +2,12 @@
     "code": "cat-female",
     "class": "EntityPet",
     "hitboxSize": {
-        "x": 1.2,
-        "y": 1
+        "x": 1,
+        "y": 0.5
     },
     "deadHitboxSize": {
         "x": 1,
-        "y": 0.75
+        "y": 0.4
     },
     "eyeHeight": 0.9,
     "drops": [],
