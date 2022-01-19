@@ -21,6 +21,30 @@
             "alternates": [
                 {
                     "base": "entity/cat/cat-male02"
+                },
+                {
+                    "base": "entity/cat/cat-male03"
+                },
+                {
+                    "base": "entity/cat/cat-male04"
+                },
+                {
+                    "base": "entity/cat/cat-male05"
+                },
+                {
+                    "base": "entity/cat/cat-male06"
+                },
+                {
+                    "base": "entity/cat/cat-male07"
+                },
+                {
+                    "base": "entity/cat/cat-male08"
+                },
+                {
+                    "base": "entity/cat/cat-male09"
+                },
+                {
+                    "base": "entity/cat/cat-male10"
                 }
             ]
         },
