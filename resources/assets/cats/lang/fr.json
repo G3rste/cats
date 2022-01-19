@@ -1,0 +1,9 @@
+{
+    "item-creature-cat-male": "Chat (mâle)",
+    "item-creature-cat-female": "Chatte (femelle)",
+    "item-dead-creature-cat-male": "Chat mort (mâle)",
+    "item-dead-creature-cat-female": "Chatte morte (femelle)",
+
+    "cattamingguide-title": "Guide d'apprivoisement: Chats",
+    "cattamingguide-text": "<strong>Guide d'apprivoisement: Chats</strong>\n\nLes chats peuvent être apprivoisés en leur donnant progressivement de la viande crue.\n\nUne fois apprivoisés, les chats obéissent seulement aux ordres simples, car ils ont leur propres envies la plupart du temps.\n\nIl semble y avoir quelque chose d'étrange entre les chats et les 'drifters'. Les 'drifters' faibles semblent perdre leur envie de se battre quand des chats sont dans les environs."
+}
