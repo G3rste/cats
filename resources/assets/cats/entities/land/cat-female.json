@@ -180,9 +180,6 @@
     "server": {
         "behaviors": [
             {
-                "code": "selfdefence"
-            },
-            {
                 "code": "nametag"
             },
             {
