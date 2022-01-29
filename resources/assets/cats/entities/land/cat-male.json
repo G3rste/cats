@@ -73,17 +73,17 @@
                     {
                         "code": "bushmeat-raw",
                         "progress": 0.1,
-                        "cooldown": 6
+                        "cooldown": 2
                     },
                     {
                         "code": "redmeat-raw",
                         "progress": 0.2,
-                        "cooldown": 6
+                        "cooldown": 3
                     },
                     {
                         "code": "poultry-raw",
                         "progress": 0.2,
-                        "cooldown": 6
+                        "cooldown": 3
                     }
                 ]
             },
@@ -187,22 +187,22 @@
             },
             {
                 "code": "tameable",
-                "disobediencePerDay": 0.15,
+                "disobediencePerDay": 0.05,
                 "treat": [
                     {
                         "code": "bushmeat-raw",
                         "progress": 0.1,
-                        "cooldown": 6
+                        "cooldown": 2
                     },
                     {
                         "code": "redmeat-raw",
                         "progress": 0.2,
-                        "cooldown": 6
+                        "cooldown": 3
                     },
                     {
                         "code": "poultry-raw",
                         "progress": 0.2,
-                        "cooldown": 6
+                        "cooldown": 3
                     }
                 ]
             },
@@ -342,6 +342,10 @@
                 "aitasks": [
                     {
                         "code": "petmeleeattack",
+                        "entityCodes": [
+                            "hare-*",
+                            "chicken-*"
+                        ],
                         "isCommandable": false,
                         "priority": 2.2,
                         "damage": 2.5,
@@ -357,6 +361,10 @@
                     },
                     {
                         "code": "petseekentity",
+                        "entityCodes": [
+                            "hare-*",
+                            "chicken-*"
+                        ],
                         "isCommandable": false,
                         "priority": 2.1,
                         "movespeed": 0.045,
@@ -389,6 +397,20 @@
                         "maxDistance": 10,
                         "searchRange": 40,
                         "animation": "Walk"
+                    },
+                    {
+                        "code": "fleeentity",
+                        "entityCodes": [
+                            "wolf-*",
+                            "fox-*",
+                            "tame-wolf-*"
+                        ],
+                        "priority": 1.5,
+                        "movespeed": 0.045,
+                        "animationSpeed": 2.4,
+                        "seekingRange": 11,
+                        "animation": "Run",
+                        "sound": "creature/cat/hiss"
                     },
                     {
                         "code": "seeknest",
@@ -552,7 +574,7 @@
                 "minForestOrShrubs": 0.25,
                 "maxForest": 0.75,
                 "maxShrubs": 0.75,
-				"companions": []
+                "companions": []
             },
             "runtime": {
                 "group": "neutral",
@@ -578,7 +600,7 @@
                 "minForestOrShrubs": 0.25,
                 "maxForest": 0.75,
                 "maxShrubs": 0.75,
-				"companions": []
+                "companions": []
             }
         }
     },
