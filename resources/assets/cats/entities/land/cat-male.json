@@ -493,7 +493,7 @@
                         "code": "wander",
                         "priority": 1.0,
                         "priorityForCancel": 1.35,
-                        "movespeed": 0.006,
+                        "movespeed": 0.004,
                         "animation": "Walk",
                         "preferredLightLevel": 20
                     },
