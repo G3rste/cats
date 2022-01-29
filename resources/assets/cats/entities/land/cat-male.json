@@ -526,7 +526,7 @@
                         "animation": "Yip",
                         "animationSpeed": 1,
                         "sound": "creature/cat/meow1",
-                        "soundRange": 50
+                        "soundRange": 8
                     },
                     {
                         "code": "idle",
