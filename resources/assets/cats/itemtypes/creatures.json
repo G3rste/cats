@@ -22,12 +22,12 @@
     "texturesByType": {
         "*-cat-male": {
             "skin": {
-                "base": "entity/cat/cat-male01"
+                "base": "entity/cat/cat-male02"
             }
         },
         "*-cat-female": {
             "skin": {
-                "base": "entity/cat/cat-male02"
+                "base": "entity/cat/cat-male01"
             }
         }
     },
