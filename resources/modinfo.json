@@ -3,7 +3,7 @@
     "modid": "cats",
     "name": "Cats",
     "side": "universal",
-    "author": "G3rste",
+    "authors": ["G3rste"],
     "description": "Mod that introduces cats as a new pet to vintage story.",
     "version": "1.3.0",
     "dependency": {
