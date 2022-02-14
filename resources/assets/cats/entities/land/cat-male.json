@@ -406,9 +406,10 @@
                         "priority": 1.5,
                         "movespeed": 0.045,
                         "animationSpeed": 2.4,
-                        "seekingRange": 11,
+                        "seekingRange": 6,
                         "animation": "Run",
-                        "sound": "creature/cat/hiss"
+                        "sound": "creature/cat/hiss",
+                        "soundRange": 3
                     },
                     {
                         "code": "seeknest",
