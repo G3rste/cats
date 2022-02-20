@@ -68,50 +68,11 @@
                 ]
             },
             {
-                "code": "tameable",
-                "treat": [
-                    {
-                        "code": "bushmeat-raw",
-                        "progress": 0.1,
-                        "cooldown": 2
-                    },
-                    {
-                        "code": "redmeat-raw",
-                        "progress": 0.2,
-                        "cooldown": 3
-                    },
-                    {
-                        "code": "poultry-raw",
-                        "progress": 0.2,
-                        "cooldown": 3
-                    },
-                    {
-                        "code": "fishfillet-raw",
-                        "progress": 0.4,
-                        "cooldown": 3
-                    }
-                ]
+                "code": "tameable"
             },
             {
                 "code": "mouthinventory",
-                "acceptStacks": [
-                    {
-                        "type": "item",
-                        "code": "bushmeat-raw"
-                    },
-                    {
-                        "type": "item",
-                        "code": "redmeat-raw"
-                    },
-                    {
-                        "type": "item",
-                        "code": "poultry-raw"
-                    },
-                    {
-                        "type": "item",
-                        "code": "primitivesurvival:fishfillet-raw"
-                    }
-                ]
+                "acceptStacks": []
             },
             {
                 "code": "repulseagents"
@@ -231,10 +192,6 @@
                     {
                         "type": "item",
                         "code": "poultry-raw"
-                    },
-                    {
-                        "type": "item",
-                        "code": "primitivesurvival:fishfillet-raw"
                     }
                 ]
             },
