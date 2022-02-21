@@ -15,6 +15,20 @@
     },
     {
         "op": "add",
+        "path": "/client/behaviors/3/acceptStacks/-",
+        "value": {
+            "type": "item",
+            "code": "primitivesurvival:fishfillet-raw"
+        },
+        "file": "cats:entities/land/cat-male.json",
+        "dependsOn": [
+            {
+                "modid": "primitivesurvival"
+            }
+        ]
+    },
+    {
+        "op": "add",
         "path": "/server/behaviors/13/aitasks/11/eatItemCodes/-",
         "value": "primitivesurvival:fishfillet-raw",
         "file": "cats:entities/land/cat-male.json",
