@@ -1,8 +1,10 @@
 {
     "item-creature-cat-male": "Cat (male)",
     "item-creature-cat-female": "Cat (female)",
+    "item-creature-cat-kitten": "Cat (kitten)",
     "item-dead-creature-cat-male": "Dead Cat (male)",
     "item-dead-creature-cat-female": "Dead Cat (female)",
+    "item-dead-creature-cat-kitten": "Dead Cat (kitten)",
 
     "cattamingguide-title": "Taming guide: cats",
     "cattamingguide-text": "<strong>Taming guide: cats</strong>\n\nCats can be tamed by gradually feeding them raw meat.\nOnce tamed, cats can only do some basic commands, as they have their own mind most of the time.\n\nThere seems to be something odd about drifters and cats. The weaker drifters seem to loose their will to fight you when cats are near."

@@ -1,8 +1,10 @@
 {
     "item-creature-cat-male": "Katze (männlich)",
     "item-creature-cat-female": "Katze (weiblich)",
+    "item-creature-cat-kitten": "Katze (Baby)",
     "item-dead-creature-cat-male": "Tote Katze (männlich)",
     "item-dead-creature-cat-female": "Tote Katze (weiblich)",
+    "item-dead-creature-cat-kitten": "Tote Katze (Baby)",
 
     "cattamingguide-title": "Zähmen: Katzen",
     "cattamingguide-text": "<strong>Katzen zähmen</strong>\n\nKatzen können gezähmt werden, indem sie mit rohem Fleisch gefütter werden.\nDa Katzen allgemein sehr eigensinnig sind, können sie nur sehr wenige Befehle ausführen\n\nEinige Drifter scheinen Katzen als eine höhere Präsenz wahrzunehmen und werden dich in ihrer Gegenwart nicht angreifen."
