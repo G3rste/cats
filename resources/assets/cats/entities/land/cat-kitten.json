@@ -454,7 +454,7 @@
         "spawnconditions": {
             "worldgen": {
                 "TriesPerChunk": {
-                    "avg": 0.01,
+                    "avg": 0.007,
                     "var": 0
                 },
                 "tryOnlySurface": true,
@@ -474,12 +474,14 @@
                 "minForestOrShrubs": 0.25,
                 "maxForest": 0.75,
                 "maxShrubs": 0.75,
-                "companions": []
+                "companions": [
+                    "cats:cat-female"
+                ]
             },
             "runtime": {
                 "group": "neutral",
                 "tryOnlySurface": true,
-                "chance": 0.0001,
+                "chance": 0.00005,
                 "maxQuantity": 4,
                 "__comment": "Make them spawn away from artifical light so they don't spawn inside farmland",
                 "maxLightLevel": 7,
@@ -500,7 +502,9 @@
                 "minForestOrShrubs": 0.25,
                 "maxForest": 0.75,
                 "maxShrubs": 0.75,
-                "companions": []
+                "companions": [
+                    "cats:cat-female"
+                ]
             }
         }
     },
