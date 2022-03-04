@@ -327,6 +327,26 @@
                         "soundRange": 3
                     },
                     {
+                        "code": "stayclosetoentity",
+                        "priority": 1.4,
+                        "entityCode": "player",
+                        "movespeed": 0.02,
+                        "animationSpeed": 1.4,
+                        "maxDistance": 15,
+                        "searchRange": 25,
+                        "animation": "Run"
+                    },
+                    {
+                        "code": "stayclosetoentity",
+                        "priority": 1.5,
+                        "entityCode": "cat-female",
+                        "movespeed": 0.02,
+                        "animationSpeed": 1.4,
+                        "maxDistance": 15,
+                        "searchRange": 25,
+                        "animation": "Run"
+                    },
+                    {
                         "code": "seeknest",
                         "priority": 1.56,
                         "validNests": [
