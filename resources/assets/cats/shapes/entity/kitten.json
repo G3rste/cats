@@ -591,7 +591,7 @@
 		{
 			"name": "Attack",
 			"code": "attack",
-			"quantityframes": 86,
+			"quantityframes": 120,
 			"onActivityStopped": "PlayTillEnd",
 			"onAnimationEnd": "Stop",
 			"keyframes": [
@@ -787,6 +787,56 @@
 						"tail1": { "rotationX": 0.0, "rotationY": 17.0, "rotationZ": 22.0 },
 						"tail2": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -15.0, "rotationZ": 0.0 },
 						"l_leg1": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 64.0 },
+						"l_leg2": { "offsetX": -0.8, "offsetY": -0.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"l_leg3": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -47.0 },
+						"r_leg1": { "offsetX": 0.0, "offsetY": -0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 },
+						"r_leg2": { "offsetX": -0.8, "offsetY": 0.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
+						"r_leg3": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -28.0 }
+					}
+				},
+				{
+					"frame": 99,
+					"elements": {
+						"abdomen": { "offsetX": -2.3, "offsetY": 2.4, "offsetZ": 0.0, "rotationX": -94.0, "rotationY": -6.0, "rotationZ": -33.0 },
+						"thorax": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -11.0, "rotationY": 14.0, "rotationZ": -39.0 },
+						"neck": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -17.0, "rotationZ": 6.0 },
+						"head": { "offsetX": -0.5, "offsetY": -0.2, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 28.0, "rotationZ": 72.0 },
+						"muzzle": {  },
+						"jaw": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
+						"l_arm1": { "offsetX": 0.1, "offsetY": 0.0, "offsetZ": 0.2, "rotationX": -66.0, "rotationY": 0.0, "rotationZ": -53.0 },
+						"l_arm2": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 64.0, "rotationZ": 0.0 },
+						"l_arm_3": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 94.0 },
+						"r_arm1": { "offsetX": 0.0, "offsetY": -0.3, "offsetZ": 0.0, "rotationX": 14.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"r_arm2": { "offsetX": -0.6, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 33.0 },
+						"r_arm3": { "offsetX": -0.3, "offsetY": 0.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 130.0 },
+						"tail1": { "rotationX": 0.0, "rotationY": -25.0, "rotationZ": 22.0 },
+						"tail2": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -28.477, "rotationZ": 0.0 },
+						"l_leg1": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 64.0 },
+						"l_leg2": { "offsetX": -0.8, "offsetY": -0.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
+						"l_leg3": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -47.0 },
+						"r_leg1": { "offsetX": 0.0, "offsetY": -0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 },
+						"r_leg2": { "offsetX": -0.8, "offsetY": 0.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
+						"r_leg3": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -28.0 }
+					}
+				},
+				{
+					"frame": 107,
+					"elements": {
+						"abdomen": { "offsetX": -2.3, "offsetY": 2.4, "offsetZ": 0.0, "rotationX": -78.0, "rotationY": -17.0, "rotationZ": -19.0 },
+						"thorax": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -20.29, "rotationY": 15.659, "rotationZ": -30.705 },
+						"neck": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -3.65, "rotationY": -14.014, "rotationZ": 6.0 },
+						"head": { "offsetX": -0.5, "offsetY": -0.2, "offsetZ": 0.0, "rotationX": 7.299, "rotationY": 25.014, "rotationZ": 70.009 },
+						"muzzle": {  },
+						"jaw": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.048 },
+						"l_arm1": { "offsetX": 0.1, "offsetY": 0.0, "offsetZ": 0.2, "rotationX": -66.0, "rotationY": 0.0, "rotationZ": -53.0 },
+						"l_arm2": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 64.0, "rotationZ": 8.295 },
+						"l_arm_3": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 94.0 },
+						"r_arm1": { "offsetX": 0.0, "offsetY": -0.3, "offsetZ": 0.0, "rotationX": 23.954, "rotationY": 0.0, "rotationZ": 0.0 },
+						"r_arm2": { "offsetX": -0.5004608294930876, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -50.0, "rotationZ": 24.705 },
+						"r_arm3": { "offsetX": -0.3, "offsetY": 0.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 130.0 },
+						"tail1": { "rotationX": 0.0, "rotationY": 32.323, "rotationZ": 22.0 },
+						"tail2": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": -24.231, "rotationZ": 0.0 },
+						"l_leg1": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 8.0, "rotationY": 0.0, "rotationZ": 64.0 },
 						"l_leg2": { "offsetX": -0.8, "offsetY": -0.1, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 25.0 },
 						"l_leg3": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -47.0 },
 						"r_leg1": { "offsetX": 0.0, "offsetY": -0.4, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 42.0 },
@@ -1189,7 +1239,7 @@
 		{
 			"name": "Kill",
 			"code": "kill",
-			"quantityframes": 41,
+			"quantityframes": 50,
 			"onActivityStopped": "EaseOut",
 			"onAnimationEnd": "Stop",
 			"keyframes": [

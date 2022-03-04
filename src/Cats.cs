@@ -9,6 +9,7 @@ namespace Cats {
             base.Start(api);
 
             AiTaskRegistry.Register<AiTaskFreezeNear>("freezeNear");
+            AiTaskRegistry.Register<AiTaskPlayWithEntity>("playWithEntity");
         }
     }
 }

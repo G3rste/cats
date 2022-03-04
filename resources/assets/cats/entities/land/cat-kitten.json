@@ -293,13 +293,32 @@
                 "code": "taskai",
                 "aitasks": [
                     {
+                        "code": "playWithEntity",
+                        "entityCodes": [
+                            "butterfly-*",
+                            "cat-*",
+                            "player"
+                        ],
+                        "priority": 1.5,
+                        "movespeed": 0.02,
+                        "animationSpeed": 1.4,
+                        "seekingRange": 10,
+                        "animation": "Run",
+                        "mincooldown": 10000,
+                        "maxcooldown": 30000,
+                        "playAnimations": [
+                            "kill",
+                            "attack"
+                        ]
+                    },
+                    {
                         "code": "fleeentity",
                         "entityCodes": [
                             "wolf-*",
                             "fox-*",
                             "tame-wolf-*"
                         ],
-                        "priority": 1.5,
+                        "priority": 1.6,
                         "movespeed": 0.02,
                         "animationSpeed": 1.4,
                         "seekingRange": 6,
