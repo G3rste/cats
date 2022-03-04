@@ -1,0 +1,485 @@
+{
+    "code": "cat-kitten",
+    "class": "EntityPet",
+    "hitboxSize": {
+        "x": 0.3,
+        "y": 0.25
+    },
+    "deadHitboxSize": {
+        "x": 0.3,
+        "y": 0.25
+    },
+    "eyeHeight": 0.3,
+    "drops": [],
+    "client": {
+        "renderer": "Shape",
+        "shape": {
+            "base": "entity/kitten"
+        },
+        "texture": {
+            "base": "entity/kitten/kitten01",
+            "alternates": [
+                {
+                    "base": "entity/kitten/kitten02"
+                },
+                {
+                    "base": "entity/kitten/kitten03"
+                },
+                {
+                    "base": "entity/kitten/kitten04"
+                },
+                {
+                    "base": "entity/kitten/kitten05"
+                },
+                {
+                    "base": "entity/kitten/kitten06"
+                },
+                {
+                    "base": "entity/kitten/kitten07"
+                },
+                {
+                    "base": "entity/kitten/kitten08"
+                },
+                {
+                    "base": "entity/kitten/kitten09"
+                },
+                {
+                    "base": "entity/kitten/kitten10"
+                }
+            ]
+        },
+        "behaviors": [
+            {
+                "code": "nametag"
+            },
+            {
+                "code": "tameable",
+                "treat": [
+                    {
+                        "code": "bushmeat-raw",
+                        "progress": 0.1,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "redmeat-raw",
+                        "progress": 0.2,
+                        "cooldown": 3
+                    },
+                    {
+                        "code": "poultry-raw",
+                        "progress": 0.2,
+                        "cooldown": 3
+                    }
+                ]
+            },
+            {
+                "code": "mouthinventory",
+                "acceptStacks": [
+                    {
+                        "type": "item",
+                        "code": "bushmeat-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "redmeat-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "poultry-raw"
+                    }
+                ]
+            },
+            {
+                "code": "repulseagents"
+            },
+            {
+                "code": "controlledphysics",
+                "stepHeight": 1.1251
+            },
+            {
+                "code": "floatupwhenstuck",
+                "onlyWhenDead": true
+            },
+            {
+                "code": "interpolateposition"
+            },
+            {
+                "code": "harvestable"
+            },
+            {
+                "code": "despawn",
+                "minPlayerDistance": 8,
+                "belowLightLevel": 8,
+                "minSeconds": 300
+            },
+            {
+                "code": "ropetieable",
+                "minGeneration": 2
+            }
+        ],
+        "animations": [
+            {
+                "code": "hurt",
+                "animation": "hurt",
+                "animationSpeed": 2.2,
+                "weight": 10,
+                "blendMode": "addAverage"
+            },
+            {
+                "code": "die",
+                "animation": "death",
+                "animationSpeed": 1.25,
+                "weight": 10,
+                "blendMode": "average",
+                "triggeredBy": {
+                    "onControls": [
+                        "dead"
+                    ]
+                }
+            },
+            {
+                "code": "idle",
+                "animation": "idle",
+                "blendMode": "addAverage",
+                "easeOutSpeed": 4,
+                "triggeredBy": {
+                    "defaultAnim": true
+                }
+            },
+            {
+                "code": "sleep",
+                "animation": "sleep",
+                "easeInSpeed": 4,
+                "easeOutSpeed": 4,
+                "blendMode": "average"
+            },
+            {
+                "code": "sit",
+                "animation": "sit",
+                "easeInSpeed": 4,
+                "easeOutSpeed": 4,
+                "blendMode": "average"
+            }
+        ]
+    },
+    "server": {
+        "behaviors": [
+            {
+                "code": "nametag"
+            },
+            {
+                "code": "tameable",
+                "disobediencePerDay": 0.05,
+                "treat": [
+                    {
+                        "code": "bushmeat-raw",
+                        "progress": 0.1,
+                        "cooldown": 2
+                    },
+                    {
+                        "code": "redmeat-raw",
+                        "progress": 0.2,
+                        "cooldown": 3
+                    },
+                    {
+                        "code": "poultry-raw",
+                        "progress": 0.2,
+                        "cooldown": 3
+                    }
+                ]
+            },
+            {
+                "code": "mouthinventory",
+                "acceptStacks": [
+                    {
+                        "type": "item",
+                        "code": "bushmeat-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "redmeat-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "poultry-raw"
+                    }
+                ]
+            },
+            {
+                "code": "repulseagents"
+            },
+            {
+                "code": "controlledphysics",
+                "stepHeight": 1.1251
+            },
+            {
+                "code": "despawn",
+                "minPlayerDistance": 8,
+                "belowLightLevel": 8,
+                "minSeconds": 300
+            },
+            {
+                "code": "health",
+                "currenthealth": 10,
+                "maxhealth": 10
+            },
+            {
+                "code": "deaddecay",
+                "hoursToDecay": 96,
+                "decayedBlock": "carcass-medium"
+            },
+            {
+                "code": "floatupwhenstuck",
+                "onlyWhenDead": true
+            },
+            {
+                "code": "harvestable",
+                "drops": [
+                    {
+                        "type": "item",
+                        "code": "bushmeat-raw",
+                        "quantity": {
+                            "avg": 1,
+                            "var": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "code": "breathe"
+            },
+            {
+                "code": "emotionstates",
+                "states": [
+                    {
+                        "code": "fleeondamage",
+                        "duration": 60,
+                        "chance": 0.75,
+                        "slot": 2,
+                        "priority": 5,
+                        "accumType": "max",
+                        "whenHealthRelBelow": 0.3
+                    },
+                    {
+                        "code": "saturated",
+                        "duration": 1200,
+                        "chance": 1,
+                        "slot": 0,
+                        "priority": 1,
+                        "accumType": "sum",
+                        "belowTempDuration": 600,
+                        "belowTempThreshold": -5
+                    },
+                    {
+                        "code": "aggressiveondamage",
+                        "duration": 30,
+                        "chance": 1,
+                        "slot": 2,
+                        "priority": 2,
+                        "accumType": "noaccum"
+                    }
+                ]
+            },
+            {
+                "code": "taskai",
+                "aitasks": [
+                    {
+                        "code": "fleeentity",
+                        "entityCodes": [
+                            "wolf-*",
+                            "fox-*",
+                            "tame-wolf-*"
+                        ],
+                        "priority": 1.5,
+                        "movespeed": 0.02,
+                        "animationSpeed": 1.4,
+                        "seekingRange": 6,
+                        "animation": "Run",
+                        "sound": "creature/cat/hiss",
+                        "soundRange": 3
+                    },
+                    {
+                        "code": "seeknest",
+                        "priority": 1.56,
+                        "validNests": [
+                            "bed-*"
+                        ],
+                        "duringDayTimeFrames": [
+                            {
+                                "fromHour": 10,
+                                "toHour": 18
+                            },
+                            {
+                                "fromHour": 1,
+                                "toHour": 3
+                            }
+                        ],
+                        "movespeed": 0.0025,
+                        "animation": "Walk"
+                    },
+                    {
+                        "code": "idle",
+                        "priority": 1.45,
+                        "priorityForCancel": 1.55,
+                        "minduration": 200000,
+                        "maxduration": 800000,
+                        "mincooldown": 10000,
+                        "maxcooldown": 30000,
+                        "animation": "Lie",
+                        "whenNotInEmotionState": "aggressiveondamage",
+                        "duringDayTimeFrames": [
+                            {
+                                "fromHour": 10,
+                                "toHour": 18
+                            },
+                            {
+                                "fromHour": 1,
+                                "toHour": 3
+                            }
+                        ],
+                        "stopOnHurt": true,
+                        "soundRange": 3
+                    },
+                    {
+                        "code": "idle",
+                        "priority": 1.45,
+                        "priorityForCancel": 1.55,
+                        "minduration": 10000,
+                        "maxduration": 30000,
+                        "mincooldown": 50000,
+                        "maxcooldown": 150000,
+                        "animation": "Lie",
+                        "whenNotInEmotionState": "aggressiveondamage",
+                        "stopOnHurt": true,
+                        "sound": "creature/cat/purr",
+                        "soundRange": 2
+                    },
+                    {
+                        "code": "getoutofwater",
+                        "priority": 1.4,
+                        "movespeed": 0.006,
+                        "animation": "Walk",
+                        "animationSpeed": 2.2
+                    },
+                    {
+                        "code": "wander",
+                        "priority": 1.0,
+                        "priorityForCancel": 1.35,
+                        "movespeed": 0.002,
+                        "animation": "Walk",
+                        "preferredLightLevel": 20
+                    },
+                    {
+                        "code": "useinventory",
+                        "animation": "eat",
+                        "animationSpeed": 0.75,
+                        "priority": 1.6,
+                        "priorityForCancel": 1.7,
+                        "eatItemCategories": [
+                            "Protein"
+                        ],
+                        "eatItemCodes": [
+                            "bushmeat-raw",
+                            "redmeat-raw",
+                            "poultry-raw"
+                        ],
+                        "useTime": 1.5,
+                        "mincooldownHours": 1,
+                        "maxcooldownHours": 1.5
+                    },
+                    {
+                        "code": "idle",
+                        "priority": 1.3,
+                        "priorityForCancel": 1.35,
+                        "minduration": 4667,
+                        "maxduration": 4667,
+                        "mincooldown": 20000,
+                        "maxcooldown": 100000,
+                        "animation": "Call",
+                        "animationSpeed": 1,
+                        "sound": "creature/cat/meow2",
+                        "soundRange": 8
+                    },
+                    {
+                        "code": "idle",
+                        "priority": 0.9,
+                        "minduration": 2000,
+                        "maxduration": 10000,
+                        "mincooldown": 2000,
+                        "maxcooldown": 120000,
+                        "priorityForCancel": 1.33,
+                        "animation": "Sit",
+                        "whenNotInEmotionState": "aggressiveondamage",
+                        "stopRange": 5
+                    },
+                    {
+                        "code": "lookaround",
+                        "priority": 0.5
+                    }
+                ]
+            },
+            {
+                "code": "ropetieable",
+                "minGeneration": 2
+            }
+        ],
+        "spawnconditions": {
+            "worldgen": {
+                "TriesPerChunk": {
+                    "avg": 0.01,
+                    "var": 0
+                },
+                "tryOnlySurface": true,
+                "groupSize": {
+                    "dist": "verynarrowgaussian",
+                    "avg": 1,
+                    "var": 0
+                },
+                "insideBlockCodes": [
+                    "game:air",
+                    "game:tallgrass-*",
+                    "game:snowlayer-1"
+                ],
+                "minTemp": -15,
+                "maxTemp": 15,
+                "minRain": 0.25,
+                "minForestOrShrubs": 0.25,
+                "maxForest": 0.75,
+                "maxShrubs": 0.75,
+                "companions": []
+            },
+            "runtime": {
+                "group": "neutral",
+                "tryOnlySurface": true,
+                "chance": 0.0001,
+                "maxQuantity": 4,
+                "__comment": "Make them spawn away from artifical light so they don't spawn inside farmland",
+                "maxLightLevel": 7,
+                "lightLevelType": "onlyBlockLight",
+                "groupSize": {
+                    "dist": "verynarrowgaussian",
+                    "avg": 1,
+                    "var": 0
+                },
+                "insideBlockCodes": [
+                    "game:air",
+                    "game:tallgrass-*",
+                    "game:snowlayer-1"
+                ],
+                "minTemp": -15,
+                "maxTemp": 15,
+                "minRain": 0.25,
+                "minForestOrShrubs": 0.25,
+                "maxForest": 0.75,
+                "maxShrubs": 0.75,
+                "companions": []
+            }
+        }
+    },
+    "sounds": {
+        "hurt": "creature/cat/hiss",
+        "death": "creature/cat/hiss",
+        "idle": "creature/cat/meow2"
+    },
+    "idleSoundChance": 0
+}
