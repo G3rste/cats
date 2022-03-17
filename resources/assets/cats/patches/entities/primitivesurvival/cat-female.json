@@ -29,7 +29,7 @@
     },
     {
         "op": "add",
-        "path": "/server/behaviors/13/aitasks/11/eatItemCodes/-",
+        "path": "/server/behaviors/14/aitasks/11/eatItemCodes/-",
         "value": "primitivesurvival:fishfillet-raw",
         "file": "cats:entities/land/cat-female.json",
         "dependsOn": [
