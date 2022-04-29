@@ -270,7 +270,7 @@
             {
                 "code": "deaddecay",
                 "hoursToDecay": 96,
-                "decayedBlock": "carcass-medium"
+                "decayedBlock": "carcass-small"
             },
             {
                 "code": "floatupwhenstuck",
