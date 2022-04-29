@@ -575,7 +575,7 @@
         "spawnconditions": {
             "worldgen": {
                 "TriesPerChunk": {
-                    "avg": 0.003,
+                    "avg": 0.0003,
                     "var": 0
                 },
                 "tryOnlySurface": true,
@@ -600,7 +600,7 @@
             "runtime": {
                 "group": "neutral",
                 "tryOnlySurface": true,
-                "chance": 0.00005,
+                "chance": 0.000005,
                 "maxQuantity": 4,
                 "__comment": "Make them spawn away from artifical light so they don't spawn inside farmland",
                 "maxLightLevel": 7,
