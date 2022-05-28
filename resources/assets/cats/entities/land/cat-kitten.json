@@ -468,63 +468,7 @@
                 "code": "ropetieable",
                 "minGeneration": 2
             }
-        ],
-        "spawnconditions": {
-            "worldgen": {
-                "TriesPerChunk": {
-                    "avg": 0.0007,
-                    "var": 0
-                },
-                "tryOnlySurface": true,
-                "groupSize": {
-                    "dist": "verynarrowgaussian",
-                    "avg": 1,
-                    "var": 0
-                },
-                "insideBlockCodes": [
-                    "game:air",
-                    "game:tallgrass-*",
-                    "game:snowlayer-1"
-                ],
-                "minTemp": -15,
-                "maxTemp": 15,
-                "minRain": 0.25,
-                "minForestOrShrubs": 0.25,
-                "maxForest": 0.75,
-                "maxShrubs": 0.75,
-                "companions": [
-                    "cats:cat-female"
-                ]
-            },
-            "runtime": {
-                "group": "neutral",
-                "tryOnlySurface": true,
-                "chance": 0.000005,
-                "maxQuantity": 4,
-                "__comment": "Make them spawn away from artifical light so they don't spawn inside farmland",
-                "maxLightLevel": 7,
-                "lightLevelType": "onlyBlockLight",
-                "groupSize": {
-                    "dist": "verynarrowgaussian",
-                    "avg": 1,
-                    "var": 0
-                },
-                "insideBlockCodes": [
-                    "game:air",
-                    "game:tallgrass-*",
-                    "game:snowlayer-1"
-                ],
-                "minTemp": -15,
-                "maxTemp": 15,
-                "minRain": 0.25,
-                "minForestOrShrubs": 0.25,
-                "maxForest": 0.75,
-                "maxShrubs": 0.75,
-                "companions": [
-                    "cats:cat-female"
-                ]
-            }
-        }
+        ]
     },
     "sounds": {
         "hurt": "creature/cat/hiss",
