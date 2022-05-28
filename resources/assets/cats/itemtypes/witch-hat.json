@@ -1,0 +1,134 @@
+{
+    "code": "witchhat",
+    "class": "ItemPetAccessory",
+    "shape": {
+        "base": "item/witchhat"
+    },
+    "attributes": {
+        "wearableAttachment": true,
+        "cothingType": "HEAD",
+        "validPets": [
+            "cat-male",
+            "cat-female"
+        ],
+        "handbook": {
+            "groupBy": [
+                "witchhat-*"
+            ]
+        }
+    },
+    "maxstacksize": 1,
+    "variantgroups": [
+        {
+            "code": "main",
+            "states": [
+                "black",
+                "gray",
+                "brown",
+                "purple"
+            ]
+        },
+        {
+            "code": "secondary",
+            "states": [
+                "orange",
+                "red",
+                "yellow",
+                "white",
+                "blue",
+                "green"
+            ]
+        }
+    ],
+    "textures": {
+        "main": {
+            "base": "game:block/cloth/linen/{main}"
+        },
+        "secondary": {
+            "base": "game:block/cloth/linen/{secondary}"
+        }
+    },
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "clothing": [
+            "*"
+        ]
+    },
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0.4
+        },
+        "scale": 2
+    },
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 3.4
+    },
+    "fpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": -45
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 2
+    },
+    "tpHandTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "origin": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1
+    }
+}
