@@ -2,10 +2,13 @@
     "code": "witchhat",
     "class": "ItemPetAccessory",
     "shape": {
-        "base": "item/witchhat"
+        "base": "item/witchhat-inventory"
     },
     "attributes": {
         "wearableAttachment": true,
+        "attachShape": {
+			"base": "item/witchhat"
+		},
         "cothingType": "HEAD",
         "validPets": [
             "cat-male",
@@ -65,76 +68,76 @@
             "*"
         ]
     },
-    "guiTransform": {
-        "translation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0.4
-        },
-        "scale": 2
-    },
-    "groundTransform": {
-        "translation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "scale": 3.4
-    },
-    "fpHandTransform": {
-        "translation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": -45
-        },
-        "origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "scale": 2
-    },
-    "tpHandTransform": {
-        "translation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "rotation": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "origin": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        },
-        "scale": 1
-    }
+	"guiTransform": {
+		"translation": {
+			"x": 0.2,
+			"y": 0.1,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 180
+		},
+		"origin": {
+			"x": 0.2,
+			"y": 0.1,
+			"z": 0
+		},
+		"scale": 3
+	},
+	"groundTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 3.5
+	},
+	"fpHandTransform": {
+		"translation": {
+			"x": 0,
+			"y": 0.3,
+			"z": 0.3
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 2.41
+	},
+	"tpHandTransform": {
+		"translation": {
+			"x": 0.1,
+			"y": -0.2,
+			"z": 0.1
+		},
+		"rotation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"origin": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"scale": 0.8
+	}
 }
