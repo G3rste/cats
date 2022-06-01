@@ -8,19 +8,28 @@
             "states": [
                 "cat-male",
                 "cat-female",
-                "cat-kitten"
+                "cat-kitten",
+                "cat-male-serval",
+                "cat-female-serval",
+                "cat-kitten-serval",
+                "cat-male-european",
+                "cat-female-european",
+                "cat-kitten-european",
+                "cat-male-ocelot",
+                "cat-female-ocelot",
+                "cat-kitten-ocelot"
             ]
         }
     ],
     "shapeByType": {
-        "*-cat-male": {
-            "base": "entity/cat"
-        },
-        "*-cat-female": {
-            "base": "entity/cat"
-        },
         "*-cat-kitten": {
             "base": "entity/kitten"
+        },
+        "*-cat-kitten-*": {
+            "base": "entity/kitten"
+        },
+        "*": {
+            "base": "entity/cat"
         }
     },
     "texturesByType": {
@@ -31,12 +40,57 @@
         },
         "*-cat-female": {
             "skin": {
-                "base": "entity/cat/cat-male01"
+                "base": "entity/cat/cat-male02"
             }
         },
         "*-cat-kitten": {
             "kitten": {
+                "base": "entity/kitten/kitten02"
+            }
+        },
+        "*-cat-male-european": {
+            "skin": {
+                "base": "entity/cat/cat-male03"
+            }
+        },
+        "*-cat-female-european": {
+            "skin": {
+                "base": "entity/cat/cat-male03"
+            }
+        },
+        "*-cat-kitten-european": {
+            "kitten": {
                 "base": "entity/kitten/kitten03"
+            }
+        },
+        "*-cat-male-serval": {
+            "skin": {
+                "base": "entity/cat/cat-male01"
+            }
+        },
+        "*-cat-female-serval": {
+            "skin": {
+                "base": "entity/cat/cat-male01"
+            }
+        },
+        "*-cat-kitten-serval": {
+            "kitten": {
+                "base": "entity/kitten/kitten01"
+            }
+        },
+        "*-cat-male-ocelot": {
+            "skin": {
+                "base": "entity/cat/cat-male11"
+            }
+        },
+        "*-cat-female-ocelot": {
+            "skin": {
+                "base": "entity/cat/cat-male11"
+            }
+        },
+        "*-cat-kitten-ocelot": {
+            "kitten": {
+                "base": "entity/kitten/kitten11"
             }
         }
     },

@@ -1,6 +1,17 @@
 {
     "code": "cat-male",
     "class": "EntityPet",
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "",
+                "ocelot",
+                "serval",
+                "european"
+            ]
+        }
+    ],
     "hitboxSize": {
         "x": 1,
         "y": 0.5
@@ -9,44 +20,55 @@
         "x": 1,
         "y": 0.4
     },
-    "eyeHeight": 0.9,
+    "eyeHeight": 0.6,
     "drops": [],
     "client": {
         "renderer": "Shape",
         "shape": {
             "base": "entity/cat"
         },
-        "texture": {
-            "base": "entity/cat/cat-male01",
-            "alternates": [
-                {
-                    "base": "entity/cat/cat-male02"
-                },
-                {
-                    "base": "entity/cat/cat-male03"
-                },
-                {
-                    "base": "entity/cat/cat-male04"
-                },
-                {
-                    "base": "entity/cat/cat-male05"
-                },
-                {
-                    "base": "entity/cat/cat-male06"
-                },
-                {
-                    "base": "entity/cat/cat-male07"
-                },
-                {
-                    "base": "entity/cat/cat-male08"
-                },
-                {
-                    "base": "entity/cat/cat-male09"
-                },
-                {
-                    "base": "entity/cat/cat-male10"
-                }
-            ]
+        "sizeByType": {
+            "*-european": 0.9,
+            "*-serval": 1.3,
+            "*-ocelot": 1.1,
+            "*": 0.8
+        },
+        "textureByType": {
+            "*-ocelot": {
+                "base": "entity/cat/cat-male11"
+            },
+            "*-serval": {
+                "base": "entity/cat/cat-male01"
+            },
+            "*-european": {
+                "base": "entity/cat/cat-male03"
+            },
+            "*": {
+                "base": "entity/cat/cat-male02",
+                "alternates": [
+                    {
+                        "base": "entity/cat/cat-male04"
+                    },
+                    {
+                        "base": "entity/cat/cat-male05"
+                    },
+                    {
+                        "base": "entity/cat/cat-male06"
+                    },
+                    {
+                        "base": "entity/cat/cat-male07"
+                    },
+                    {
+                        "base": "entity/cat/cat-male08"
+                    },
+                    {
+                        "base": "entity/cat/cat-male09"
+                    },
+                    {
+                        "base": "entity/cat/cat-male10"
+                    }
+                ]
+            }
         },
         "behaviors": [
             {

@@ -1,6 +1,17 @@
 {
     "code": "cat-kitten",
     "class": "EntityPet",
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "",
+                "ocelot",
+                "serval",
+                "european"
+            ]
+        }
+    ],
     "hitboxSize": {
         "x": 0.3,
         "y": 0.25
@@ -16,37 +27,42 @@
         "shape": {
             "base": "entity/kitten"
         },
-        "texture": {
-            "base": "entity/kitten/kitten01",
-            "alternates": [
-                {
-                    "base": "entity/kitten/kitten02"
-                },
-                {
-                    "base": "entity/kitten/kitten03"
-                },
-                {
-                    "base": "entity/kitten/kitten04"
-                },
-                {
-                    "base": "entity/kitten/kitten05"
-                },
-                {
-                    "base": "entity/kitten/kitten06"
-                },
-                {
-                    "base": "entity/kitten/kitten07"
-                },
-                {
-                    "base": "entity/kitten/kitten08"
-                },
-                {
-                    "base": "entity/kitten/kitten09"
-                },
-                {
-                    "base": "entity/kitten/kitten10"
-                }
-            ]
+        "textureByType": {
+            "*-ocelot": {
+                "base": "entity/kitten/kitten11"
+            },
+            "*-serval": {
+                "base": "entity/kitten/kitten01"
+            },
+            "*-european": {
+                "base": "entity/kitten/kitten03"
+            },
+            "*": {
+                "base": "entity/kitten/kitten02",
+                "alternates": [
+                    {
+                        "base": "entity/kitten/kitten04"
+                    },
+                    {
+                        "base": "entity/kitten/kitten05"
+                    },
+                    {
+                        "base": "entity/kitten/kitten06"
+                    },
+                    {
+                        "base": "entity/kitten/kitten07"
+                    },
+                    {
+                        "base": "entity/kitten/kitten08"
+                    },
+                    {
+                        "base": "entity/kitten/kitten09"
+                    },
+                    {
+                        "base": "entity/kitten/kitten10"
+                    }
+                ]
+            }
         },
         "behaviors": [
             {
