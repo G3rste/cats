@@ -286,8 +286,16 @@
             },
             {
                 "code": "health",
-                "currenthealth": 10,
-                "maxhealth": 10
+                "currenthealthByType": {
+                    "*-ocelot": 15,
+                    "*-serval": 20,
+                    "*": 10
+                },
+                "maxhealthByType": {
+                    "*-ocelot": 15,
+                    "*-serval": 20,
+                    "*": 10
+                }
             },
             {
                 "code": "deaddecay",
