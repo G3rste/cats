@@ -345,11 +345,17 @@
             },
             {
                 "code": "multiply",
-                "spawnEntityCode": "cats:cat-kitten",
-                "requiresNearbyEntityCode": "cats:cat-male",
-                "requiresNearbyEntityRange": 4,
+                "spawnEntityCodeByType": {
+                    "cat-female": "cats:cat-kitten",
+                    "*": "cats:cat-kitten-{type}"
+                },
+                "requiresNearbyEntityCodeByType": {
+                    "cat-female": "cats:cat-male",
+                    "*": "cats:cat-male-{type}"
+                },
+                "requiresNearbyEntityRange": 6,
                 "spawnQuantityMin": 1,
-                "spawnQuantityMax": 1,
+                "spawnQuantityMax": 3,
                 "pregnancyDays": 20,
                 "multiplyCooldownDaysMin": 4,
                 "multiplyCooldownDaysMax": 11,
