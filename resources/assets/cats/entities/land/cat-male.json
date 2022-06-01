@@ -577,7 +577,83 @@
                 "code": "ropetieable",
                 "minGeneration": 2
             }
-        ]
+        ],
+        "spawnconditions": {
+            "worldgen": {
+                "TriesPerChunk": {
+                    "avg": 0.002,
+                    "var": 0
+                },
+                "tryOnlySurface": true,
+                "groupSize": {
+                    "dist": "verynarrowgaussian",
+                    "avg": 1,
+                    "var": 0
+                },
+                "insideBlockCodes": [
+                    "game:air",
+                    "game:tallgrass-*",
+                    "game:snowlayer-1"
+                ],
+                "minTempByType": {
+                    "*-ocelot": 20,
+                    "*-serval": 25,
+                    "*": -15
+                },
+                "maxTempByType": {
+                    "*-ocelot": 40,
+                    "*-serval": 40,
+                    "*": 15
+                },
+                "minRainByType": {
+                    "*-serval": 0.1,
+                    "*": 0.4
+                },
+                "maxRainByType": {
+                    "*-serval": 0.39,
+                    "*": 1
+                },
+                "companions": []
+            },
+            "runtime": {
+                "group": "neutral",
+                "tryOnlySurface": true,
+                "chance": 0.000005,
+                "maxQuantity": 1,
+                "__comment": "Make them spawn away from artifical light so they don't spawn inside farmland",
+                "maxLightLevel": 7,
+                "lightLevelType": "onlyBlockLight",
+                "groupSize": {
+                    "dist": "verynarrowgaussian",
+                    "avg": 1,
+                    "var": 0
+                },
+                "insideBlockCodes": [
+                    "game:air",
+                    "game:tallgrass-*",
+                    "game:snowlayer-1"
+                ],
+                "minTempByType": {
+                    "*-ocelot": 20,
+                    "*-serval": 25,
+                    "*": -15
+                },
+                "maxTempByType": {
+                    "*-ocelot": 40,
+                    "*-serval": 40,
+                    "*": 15
+                },
+                "minRainByType": {
+                    "*-serval": 0.1,
+                    "*": 0.25
+                },
+                "maxRainByType": {
+                    "*-serval": 0.39,
+                    "*": 1
+                },
+                "companions": []
+            }
+        }
     },
     "sounds": {
         "hurt": "creature/cat/hiss",
