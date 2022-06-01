@@ -9,7 +9,13 @@
         "cothingType": "HEAD",
         "validPets": [
             "cat-male",
-            "cat-female"
+            "cat-female",
+            "cat-male-serval",
+            "cat-female-serval",
+            "cat-male-ocelot",
+            "cat-female-ocelot",
+            "cat-male-european",
+            "cat-female-european"
         ],
         "handbook": {
             "groupBy": [
