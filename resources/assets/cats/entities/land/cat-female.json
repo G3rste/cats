@@ -614,7 +614,10 @@
         "spawnconditions": {
             "worldgen": {
                 "TriesPerChunk": {
-                    "avg": 0.002,
+                    "avgByType": {
+                        "cat-female": 0,
+                        "*": 0.002
+                    },
                     "var": 0
                 },
                 "tryOnlySurface": true,
@@ -659,7 +662,10 @@
                 "group": "neutral",
                 "tryOnlySurface": true,
                 "chance": 0.000005,
-                "maxQuantity": 2,
+                "maxQuantityByType": {
+                    "cat-female": 0,
+                    "*": 2
+                },
                 "__comment": "Make them spawn away from artifical light so they don't spawn inside farmland",
                 "maxLightLevel": 7,
                 "lightLevelType": "onlyBlockLight",
