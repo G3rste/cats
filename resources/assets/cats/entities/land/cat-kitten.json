@@ -337,7 +337,7 @@
                         ],
                         "priority": 1.6,
                         "movespeed": 0.02,
-                        "animationSpeed": 1.4,
+                        "animationSpeed": 2.5,
                         "seekingRange": 6,
                         "animation": "Run",
                         "sound": "creature/cat/hiss",
@@ -348,7 +348,7 @@
                         "priority": 1.4,
                         "entityCode": "player",
                         "movespeed": 0.02,
-                        "animationSpeed": 1.4,
+                        "animationSpeed": 2.5,
                         "maxDistance": 15,
                         "searchRange": 25,
                         "animation": "Run"
@@ -358,7 +358,7 @@
                         "priority": 1.5,
                         "entityCode": "cat-female",
                         "movespeed": 0.02,
-                        "animationSpeed": 1.4,
+                        "animationSpeed": 2.5,
                         "maxDistance": 15,
                         "searchRange": 25,
                         "animation": "Run"
@@ -377,6 +377,7 @@
                             }
                         ],
                         "movespeed": 0.0025,
+                        "animationSpeed": 1.2,
                         "animation": "Walk"
                     },
                     {
@@ -428,6 +429,7 @@
                         "priority": 1.0,
                         "priorityForCancel": 1.35,
                         "movespeed": 0.002,
+                        "animationSpeed": 1.2,
                         "animation": "Walk",
                         "preferredLightLevel": 20
                     },

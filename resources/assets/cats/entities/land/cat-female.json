@@ -453,7 +453,8 @@
                         "priority": 2,
                         "priorityForCancel": 1.9,
                         "command": "stay",
-                        "movespeed": 0.006,
+                        "animationSpeed": 1.2,
+                        "movespeed": 0.005,
                         "maxDistance": 10,
                         "searchRange": 40,
                         "animation": "Walk"
@@ -486,7 +487,8 @@
                                 "toHour": 3
                             }
                         ],
-                        "movespeed": 0.006,
+                        "movespeed": 0.004,
+                        "animationSpeed": 1.2,
                         "animation": "Walk"
                     },
                     {
@@ -549,7 +551,8 @@
                         "code": "wander",
                         "priority": 1.0,
                         "priorityForCancel": 1.35,
-                        "movespeed": 0.004,
+                        "movespeed": 0.003,
+                        "animationSpeed": 1.2,
                         "animation": "Walk",
                         "preferredLightLevel": 20
                     },
