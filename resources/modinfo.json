@@ -7,9 +7,9 @@
         "G3rste"
     ],
     "description": "Mod that introduces cats as a new pet to vintage story.",
-    "version": "1.4.4",
+    "version": "1.4.5",
     "dependencies": {
-        "game": "1.16.4",
+        "game": "1.16.5",
         "petai": "1.4.0"
     }
 }
