@@ -9,7 +9,7 @@ namespace Cats
     public class AiTaskFreezeNear : AiTaskBase
     {
         private EntityAgent targetEntity;
-        private List<string> entityCodesExact = new List<string>();
+        private List<string> entityCodes = new List<string>();
         EntityPartitioning partitionUtil;
         private float seekingRange;
         private long lastSearchTotalMs;
@@ -21,14 +21,14 @@ namespace Cats
         {
             base.LoadConfig(taskConfig, aiConfig);
             seekingRange = taskConfig["seekingRange"].AsFloat(8);
-            entityCodesExact.AddRange(taskConfig["entityCodesExact"].AsArray<string>(new string[0]));
+            entityCodes.AddRange(taskConfig["entityCodes"].AsArray<string>(new string[0]));
             partitionUtil = entity.Api.ModLoader.GetModSystem<EntityPartitioning>();
         }
         public override bool ShouldExecute()
         {
             if (lastSearchTotalMs + 3000 > entity.World.ElapsedMilliseconds) return false;
             lastSearchTotalMs = entity.World.ElapsedMilliseconds;
-            targetEntity = partitionUtil.GetNearestEntity(entity.ServerPos.XYZ, seekingRange, target => entityCodesExact.Contains(target.Code.Path)) as EntityAgent;
+            targetEntity = partitionUtil.GetNearestEntity(entity.ServerPos.XYZ, seekingRange, target => entityCodes.Find(code => code.EndsWith("*") ? target.Code.Path.StartsWith(code.Substring(0, code.Length - 1)) : code == target.Code.Path) != null) as EntityAgent;
             if (targetEntity == null)
             {
                 return false;

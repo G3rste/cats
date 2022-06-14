@@ -4,9 +4,8 @@
         "path": "/server/behaviors/8/aitasks/-",
         "value": {
             "code": "freezeNear",
-            "entityCodesExact": [
-                "cat-male",
-                "cat-female"
+            "entityCodes": [
+                "cat-*"
             ],
             "priorityByType": {
                 "*-normal": 2.4,
