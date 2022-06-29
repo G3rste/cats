@@ -256,10 +256,16 @@
             {
                 "code": "raisable",
                 "hoursToGrow": 408,
-                "adultEntityCodes": [
-                    "cats:cat-male",
-                    "cats:cat-female"
-                ],
+                "adultEntityCodesByType": {
+                    "cat-kitten": [
+                        "cats:cat-male",
+                        "cats:cat-female"
+                    ],
+                    "*": [
+                        "cats:cat-male-{type}",
+                        "cats:cat-female-{type}"
+                    ]
+                },
                 "keepTexture": true
             },
             {
