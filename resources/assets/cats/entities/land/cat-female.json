@@ -72,7 +72,8 @@
         },
         "behaviors": [
             {
-                "code": "nametag"
+                "code": "nametag",
+                "showtagonlywhentargeted": true
             },
             {
                 "code": "receivecommand",
@@ -204,7 +205,8 @@
     "server": {
         "behaviors": [
             {
-                "code": "nametag"
+                "code": "nametag",
+                "showtagonlywhentargeted": true
             },
             {
                 "code": "tameable",
