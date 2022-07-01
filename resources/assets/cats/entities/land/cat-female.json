@@ -110,7 +110,14 @@
                     },
                     {
                         "code": "fishfillet-raw",
+                        "domain": "primitivesurvival",
                         "progress": 0.4,
+                        "cooldown": 3
+                    },
+                    {
+                        "code": "petcookie-meat-perfect",
+                        "domain": "petai",
+                        "progress": 0.8,
                         "cooldown": 3
                     }
                 ]
@@ -129,6 +136,10 @@
                     {
                         "type": "item",
                         "code": "poultry-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "petai:petcookie-meat-perfect"
                     }
                 ]
             },
@@ -230,7 +241,14 @@
                     },
                     {
                         "code": "fishfillet-raw",
+                        "domain": "primitivesurvival",
                         "progress": 0.4,
+                        "cooldown": 3
+                    },
+                    {
+                        "code": "petcookie-meat-perfect",
+                        "domain": "petai",
+                        "progress": 0.8,
                         "cooldown": 3
                     }
                 ]
@@ -249,6 +267,10 @@
                     {
                         "type": "item",
                         "code": "poultry-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "petai:petcookie-meat-perfect"
                     }
                 ]
             },
@@ -559,7 +581,7 @@
                             "bushmeat-raw",
                             "redmeat-raw",
                             "poultry-raw",
-                            "primitivesurvival:fishfillet-raw"
+                            "petai:petcookie-meat-perfect"
                         ],
                         "useTime": 1.5,
                         "mincooldownHours": 1,

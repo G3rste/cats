@@ -86,6 +86,12 @@
                         "code": "poultry-raw",
                         "progress": 0.2,
                         "cooldown": 3
+                    },
+                    {
+                        "code": "petcookie-meat-perfect",
+                        "domain": "petai",
+                        "progress": 0.8,
+                        "cooldown": 3
                     }
                 ]
             },
@@ -103,6 +109,10 @@
                     {
                         "type": "item",
                         "code": "poultry-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "petai:petcookie-meat-perfect"
                     }
                 ]
             },
@@ -198,6 +208,12 @@
                         "code": "poultry-raw",
                         "progress": 0.2,
                         "cooldown": 3
+                    },
+                    {
+                        "code": "petcookie-meat-perfect",
+                        "domain": "petai",
+                        "progress": 0.8,
+                        "cooldown": 3
                     }
                 ]
             },
@@ -215,6 +231,10 @@
                     {
                         "type": "item",
                         "code": "poultry-raw"
+                    },
+                    {
+                        "type": "item",
+                        "code": "petai:petcookie-meat-perfect"
                     }
                 ]
             },
@@ -441,7 +461,8 @@
                         "eatItemCodes": [
                             "bushmeat-raw",
                             "redmeat-raw",
-                            "poultry-raw"
+                            "poultry-raw",
+                            "petai:petcookie-meat-perfect"
                         ],
                         "useTime": 1.5,
                         "mincooldownHours": 1,
