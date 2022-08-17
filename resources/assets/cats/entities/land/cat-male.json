@@ -626,12 +626,14 @@
                 "minTempByType": {
                     "*-ocelot": 20,
                     "*-serval": 25,
-                    "*": -15
+                    "*-european": -15,
+                    "*": 1
                 },
                 "maxTempByType": {
                     "*-ocelot": 40,
                     "*-serval": 40,
-                    "*": 15
+                    "*-european": 15,
+                    "*": -1
                 },
                 "minRainByType": {
                     "*-serval": 0.1,
@@ -664,12 +666,14 @@
                 "minTempByType": {
                     "*-ocelot": 20,
                     "*-serval": 25,
-                    "*": -15
+                    "*-european": -15,
+                    "*": 1
                 },
                 "maxTempByType": {
                     "*-ocelot": 40,
                     "*-serval": 40,
-                    "*": 15
+                    "*-european": 15,
+                    "*": -1
                 },
                 "minRainByType": {
                     "*-serval": 0.1,

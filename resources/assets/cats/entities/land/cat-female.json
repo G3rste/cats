@@ -630,10 +630,7 @@
         "spawnconditions": {
             "worldgen": {
                 "TriesPerChunk": {
-                    "avgByType": {
-                        "cat-female": 0,
-                        "*": 0.002
-                    },
+                    "avg": 0.002,
                     "var": 0
                 },
                 "tryOnlySurface": true,
@@ -650,12 +647,14 @@
                 "minTempByType": {
                     "*-ocelot": 20,
                     "*-serval": 25,
-                    "*": -15
+                    "*-european": -15,
+                    "*": 1
                 },
                 "maxTempByType": {
                     "*-ocelot": 40,
                     "*-serval": 40,
-                    "*": 15
+                    "*-european": 15,
+                    "*": -1
                 },
                 "minRainByType": {
                     "*-serval": 0.1,
@@ -678,10 +677,7 @@
                 "group": "neutral",
                 "tryOnlySurface": true,
                 "chance": 0.000005,
-                "maxQuantityByType": {
-                    "cat-female": 0,
-                    "*": 2
-                },
+                "maxQuantity": 2,
                 "__comment": "Make them spawn away from artifical light so they don't spawn inside farmland",
                 "maxLightLevel": 7,
                 "lightLevelType": "onlyBlockLight",
@@ -698,12 +694,14 @@
                 "minTempByType": {
                     "*-ocelot": 20,
                     "*-serval": 25,
-                    "*": -15
+                    "*-european": -15,
+                    "*": 1
                 },
                 "maxTempByType": {
                     "*-ocelot": 40,
                     "*-serval": 40,
-                    "*": 15
+                    "*-european": 15,
+                    "*": -1
                 },
                 "minRainByType": {
                     "*-serval": 0.1,
