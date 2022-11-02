@@ -1,0 +1,31 @@
+{
+    "item-creature-cat-male": "Кіт",
+    "item-creature-cat-female": "Кицька",
+    "item-creature-cat-kitten": "Кошеня",
+    "item-dead-creature-cat-male": "Мертвий кіт",
+    "item-dead-creature-cat-female": "Мертва кицька",
+    "item-dead-creature-cat-kitten": "Мертве кошеня",
+    "item-creature-cat-male-serval": "Сервал (Кіт)",
+    "item-creature-cat-female-serval": "Сервал (Кицька)",
+    "item-creature-cat-kitten-serval": "Сервал (Кошеня)",
+    "item-dead-creature-cat-male-serval": "Мертвий сервал (Кіт)",
+    "item-dead-creature-cat-female-serval": "Мертвий сервал (Кицька)",
+    "item-dead-creature-cat-kitten-serval": "Мертвий сервал (Кошеня)",
+    "item-creature-cat-male-european": "Лісовий кіт",
+    "item-creature-cat-female-european": "Лісова кицька",
+    "item-creature-cat-kitten-european": "Лісове кошеня",
+    "item-dead-creature-cat-male-european": "Мертвий лісовий кіт",
+    "item-dead-creature-cat-female-european": "Мертва лісова кицька",
+    "item-dead-creature-cat-kitten-european": "Мертве лісове кошеня",
+    "item-creature-cat-male-ocelot": "Оцелот (Кіт)",
+    "item-creature-cat-female-ocelot": "Оцелот (Кицька)",
+    "item-creature-cat-kitten-ocelot": "Оцелот (Кошеня)",
+    "item-dead-creature-cat-male-ocelot": "Мертвий оцелот (Кіт)",
+    "item-dead-creature-cat-female-ocelot": "Мертвий оцелот (Кицька)",
+    "item-dead-creature-cat-kitten-ocelot": "Мертвий оцелот (Кошеня)",
+
+    "item-witchhat-*": "Капелюх відьми",
+
+    "cattamingguide-title": "Посібник з приручення: Коти",
+    "cattamingguide-text": "<strong>Посібник з приручення: Коти</strong>\n\nКотів можна приручити годуючи їх сирим м’ясом.\nПісля приручення, коти виконуватимуть лише деякі команди, оскільки більшість часу вони виділяють собі.\n\nЗдається в дрифтерах та котах є щось дивне. Слабкіші дрифтери не мають бажання нападати на вас, коли коти поруч."
+}
