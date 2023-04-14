@@ -12,12 +12,23 @@
                 "*-deep": 1.9,
                 "*-tainted": 1.4,
                 "*-corrupt": 1.2,
-                "*-nightmare": 0.9
+                "*-nightmare": 0.9,
+                "*-double-headed": 0.9
             },
             "movespeed": 0.018,
             "seekingRange": 8,
-            "animationSpeed": 1.3,
-            "animation": "CrawlIdle"
+            "animationSpeed": 1.0,
+            "animation": "enchant"
+        },
+        "file": "game:entities/land/drifter.json"
+    },
+    {
+        "op": "add",
+        "path": "/client/animations/-",
+        "value": {
+            "code": "enchant", 
+            "animation": "enchant",
+            "blendMode": "AddAverage"
         },
         "file": "game:entities/land/drifter.json"
     }

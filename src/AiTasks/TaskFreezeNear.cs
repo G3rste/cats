@@ -1,7 +1,9 @@
 
+using System;
 using System.Collections.Generic;
 using Vintagestory.API.Common;
 using Vintagestory.API.Datastructures;
+using Vintagestory.API.MathTools;
 using Vintagestory.GameContent;
 
 namespace Cats
@@ -40,6 +42,18 @@ namespace Cats
         {
             if (targetEntity == null) return false;
             if (!targetEntity.Alive) return false;
+
+            Vec3f targetVec = new Vec3f(
+                (float)(targetEntity.ServerPos.X - entity.ServerPos.X),
+                (float)(targetEntity.ServerPos.Y - entity.ServerPos.Y),
+                (float)(targetEntity.ServerPos.Z - entity.ServerPos.Z)
+            );
+
+            float desiredYaw = (float)Math.Atan2(targetVec.X, targetVec.Z);
+
+            float yawDist = GameMath.AngleRadDistance(entity.ServerPos.Yaw, desiredYaw);
+            entity.ServerPos.Yaw += GameMath.Clamp(yawDist, -250 * dt, 250 * dt);
+            entity.ServerPos.Yaw = entity.ServerPos.Yaw % GameMath.TWOPI;
 
             return entity.ServerPos.SquareDistanceTo(targetEntity.ServerPos) < seekingRange * seekingRange;
         }
