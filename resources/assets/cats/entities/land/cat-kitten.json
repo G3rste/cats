@@ -367,7 +367,7 @@
                         "entityCodes": [
                             "wolf-*",
                             "fox-*",
-                            "tame-wolf-*"
+                            "dog-*"
                         ],
                         "priority": 1.6,
                         "movespeed": 0.02,
