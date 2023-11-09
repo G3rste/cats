@@ -30,7 +30,7 @@ namespace Cats
         {
             if (lastSearchTotalMs + 3000 > entity.World.ElapsedMilliseconds) return false;
             lastSearchTotalMs = entity.World.ElapsedMilliseconds;
-            targetEntity = partitionUtil.GetNearestEntity(entity.ServerPos.XYZ, seekingRange, target => entityCodes.Find(code => code.EndsWith("*") ? target.Code.Path.StartsWith(code.Substring(0, code.Length - 1)) : code == target.Code.Path) != null) as EntityAgent;
+            targetEntity = partitionUtil.GetNearestInteractableEntity(entity.ServerPos.XYZ, seekingRange, target => entityCodes.Find(code => code.EndsWith("*") ? target.Code.Path.StartsWith(code.Substring(0, code.Length - 1)) : code == target.Code.Path) != null) as EntityAgent;
             if (targetEntity == null)
             {
                 return false;

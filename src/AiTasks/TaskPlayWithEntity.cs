@@ -31,7 +31,7 @@ namespace Cats
             if (lastCheck + cooldownUntilMs < ellapsedMs)
             {
                 lastCheck = ellapsedMs;
-                targetEntity = partitionUtil.GetNearestEntity(entity.ServerPos.XYZ, seekingRange, e => IsTargetableEntity(e, seekingRange));
+                targetEntity = partitionUtil.GetNearestInteractableEntity(entity.ServerPos.XYZ, seekingRange, e => IsTargetableEntity(e, seekingRange));
                 if (targetEntity != null)
                 {
                     targetPos = targetEntity.ServerPos.XYZ;
