@@ -1,0 +1,201 @@
+[
+    {
+        "op": "addeach",
+        "path": "/variantGroups/0/states/-",
+        "value": [
+            "catdomesticated1",
+            "catdomesticated2",
+            "catdomesticated3",
+            "catdomesticated4",
+            "catdomesticated5",
+            "catdomesticated6",
+            "catdomesticated7",
+            "catdomesticated8",
+            "catocelot",
+            "catserval",
+            "cateuropean",
+            "kittendomesticated1",
+            "kittendomesticated2",
+            "kittendomesticated3",
+            "kittendomesticated4",
+            "kittendomesticated5",
+            "kittendomesticated6",
+            "kittendomesticated7",
+            "kittendomesticated8",
+            "kittenocelot",
+            "kittenserval",
+            "kitteneuropean"
+        ],
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-male",
+        "value": {
+            "type": "catdomesticated",
+            "appendTextureIndex": true
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-female",
+        "value": {
+            "type": "catdomesticated",
+            "appendTextureIndex": true
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-kitten",
+        "value": {
+            "type": "kittendomesticated",
+            "appendTextureIndex": true
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-male-ocelot",
+        "value": {
+            "type": "catocelot",
+            "appendTextureIndex": false
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-female-ocelot",
+        "value": {
+            "type": "catocelot",
+            "appendTextureIndex": false
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-kitten-ocelot",
+        "value": {
+            "type": "kittenocelot",
+            "appendTextureIndex": false
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-male-european",
+        "value": {
+            "type": "cateuropean",
+            "appendTextureIndex": false
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-female-european",
+        "value": {
+            "type": "cateuropean",
+            "appendTextureIndex": false
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-kitten-european",
+        "value": {
+            "type": "kitteneuropean",
+            "appendTextureIndex": false
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-male-serval",
+        "value": {
+            "type": "catserval",
+            "appendTextureIndex": false
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-female-serval",
+        "value": {
+            "type": "catserval",
+            "appendTextureIndex": false
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/canPickUp/cat-kitten-serval",
+        "value": {
+            "type": "kittenserval",
+            "appendTextureIndex": false
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/attachShape/baseByType/backpack-cat*",
+        "value": "cats:item/backpack-cat",
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributes/attachShape/baseByType/backpack-kitten*",
+        "value": "cats:item/backpack-cat-kitten",
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/backpack-cat*",
+        "value": {
+            "backpack": {
+                "base": "petai:backpack/backpack"
+            },
+            "cat": {
+                "baseByType": {
+                    "backpack-catocelot": "cats:entity/cat/cat-male11",
+                    "backpack-catserval": "cats:entity/cat/cat-male01",
+                    "backpack-cateuropean": "cats:entity/cat/cat-male03",
+                    "backpack-catdomesticated1": "cats:entity/cat/cat-male02",
+                    "backpack-catdomesticated2": "cats:entity/cat/cat-male04",
+                    "backpack-catdomesticated3": "cats:entity/cat/cat-male05",
+                    "backpack-catdomesticated4": "cats:entity/cat/cat-male06",
+                    "backpack-catdomesticated5": "cats:entity/cat/cat-male07",
+                    "backpack-catdomesticated6": "cats:entity/cat/cat-male08",
+                    "backpack-catdomesticated7": "cats:entity/cat/cat-male09",
+                    "backpack-catdomesticated8": "cats:entity/cat/cat-male10"
+                }
+            }
+        },
+        "file": "petai:itemtypes/backpack.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/backpack-kitten*",
+        "value": {
+            "backpack": {
+                "base": "petai:backpack/backpack"
+            },
+            "cat": {
+                "baseByType": {
+                    "backpack-kittenocelot": "cats:entity/kitten/kitten11",
+                    "backpack-kittenserval": "cats:entity/kitten/kitten01",
+                    "backpack-kitteneuropean": "cats:entity/kitten/kitten03",
+                    "backpack-kittendomesticated1": "cats:entity/kitten/kitten02",
+                    "backpack-kittendomesticated2": "cats:entity/kitten/kitten04",
+                    "backpack-kittendomesticated3": "cats:entity/kitten/kitten05",
+                    "backpack-kittendomesticated4": "cats:entity/kitten/kitten06",
+                    "backpack-kittendomesticated5": "cats:entity/kitten/kitten07",
+                    "backpack-kittendomesticated6": "cats:entity/kitten/kitten08",
+                    "backpack-kittendomesticated7": "cats:entity/kitten/kitten09",
+                    "backpack-kittendomesticated8": "cats:entity/kitten/kitten10"
+                }
+            }
+        },
+        "file": "petai:itemtypes/backpack.json"
+    }
+]
