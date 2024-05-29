@@ -13,7 +13,7 @@
         }
     ],
     "hitboxSize": {
-        "x": 1,
+        "x": 0.7,
         "y": 0.5
     },
     "deadHitboxSize": {
