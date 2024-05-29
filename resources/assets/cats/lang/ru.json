@@ -5,7 +5,25 @@
     "item-dead-creature-cat-male": "Мертвый кот",
     "item-dead-creature-cat-female": "Мертвая кошка",
     "item-dead-creature-cat-kitten": "Мертвый котенок",
-
-    "cattamingguide-title": "Приручение: коты и кошки",
-    "cattamingguide-text": "<strong>Приручение: коты и кошки</strong>\n\nДанный вид существ очень хорошо приручается сырым мясом.\nК сожалению, даже будучи прирученными, кошачьи будут выполнять только некоторые базовые команды, а виной тому довольно своевольный характер.\n\nМаленький факт: между Дрифтерами и семейством кошачьих есть какая-то странная связь. При нахождении кошки рядом с вами, дрифтер по какой-то причине теряет интерес к вам и не пытается напасть."
+    "item-creature-cat-male-serval": "Сервал (самец)",
+    "item-creature-cat-female-serval": "Сервал (самка)",
+    "item-creature-cat-kitten-serval": "Сервал (котенок)",
+    "item-dead-creature-cat-male-serval": "Мертвый сервал (самец)",
+    "item-dead-creature-cat-female-serval": "Мертвый сервал (самка)",
+    "item-dead-creature-cat-kitten-serval": "Мертвый сервал (котенок)",
+    "item-creature-cat-male-european": "Лесная кошка (самец)",
+    "item-creature-cat-female-european": "Лесная кошка (самка)",
+    "item-creature-cat-kitten-european": "Лесная кошка (котенок)",
+    "item-dead-creature-cat-male-european": "Мертвая лесная кошка (самец)",
+    "item-dead-creature-cat-female-european": "Мертвая лесная кошка (самка)",
+    "item-dead-creature-cat-kitten-european": "Мертвая лесная кошка (котенок)",
+    "item-creature-cat-male-ocelot": "Оцелот (самец)",
+    "item-creature-cat-female-ocelot": "Оцелот (самка)",
+    "item-creature-cat-kitten-ocelot": "Оцелот (котенок)",
+    "item-dead-creature-cat-male-ocelot": "Мертвый оцелот (самец)",
+    "item-dead-creature-cat-female-ocelot": "Мертвый оцелот (самка)",
+    "item-dead-creature-cat-kitten-ocelot": "Мертвый оцелот (котенок)",
+    "item-witchhat-*": "Шляпа ведьмы",
+    "cattamingguide-title": "Приручение: коты",
+    "cattamingguide-text": "<strong>Приручение: коты</strong>\n\nКотов можно приручить, подкармливая их сырым мясом.\nПосле приручения коты смогут выполнять лишь некоторые основные команды, поскольку большую часть времени им это не интересно.\n\nУ дрифтеров с котами довольно странные отношения. Более слабые дрифтеры с виду теряют желание сражаться с вами, когда рядом находятся коты."
 }
