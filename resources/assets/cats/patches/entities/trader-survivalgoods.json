@@ -1,10 +1,10 @@
 [
     {
         "op": "add",
-        "path": "/attributes/tradeProps/selling/list/-",
+        "path": "/selling/list/-",
         "value": 
         {
-            "code": "cats:creature-cat-kitten",
+            "code": "cats:creature-cat-kitten-house",
             "type": "item",
             "stacksize": 1,
             "stock": {
@@ -16,6 +16,6 @@
                 "var": 2
             }
         },
-        "file": "game:entities/humanoid/trader-survivalgoods.json"
+        "file": "game:config/tradelists/trader-survivalgoods.json"
     }
 ]

@@ -3,8 +3,8 @@
         "op": "addeach",
         "path": "/server/behaviors/10/aitasks/1/entityCodes/-",
         "value": [
-            "cat-male",
-            "cat-female",
+            "cat-male-house",
+            "cat-female-house",
             "cat-male-*",
             "cat-female-*"
         ],
@@ -14,8 +14,8 @@
         "op": "addeach",
         "path": "/server/behaviors/10/aitasks/2/entityCodes/-",
         "value": [
-            "cat-male",
-            "cat-female",
+            "cat-male-house",
+            "cat-female-house",
             "cat-male-*",
             "cat-female-*"
         ],
@@ -25,8 +25,8 @@
         "op": "addeach",
         "path": "/server/behaviors/10/aitasks/4/entityCodes/-",
         "value": [
-            "cat-male",
-            "cat-female",
+            "cat-male-house",
+            "cat-female-house",
             "cat-male-*",
             "cat-female-*"
         ],

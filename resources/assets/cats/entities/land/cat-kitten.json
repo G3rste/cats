@@ -1,11 +1,11 @@
 {
     "code": "cat-kitten",
-    "class": "EntityPet",
+    "class": "EntityAgent",
     "variantgroups": [
         {
             "code": "type",
             "states": [
-                "",
+                "house",
                 "ocelot",
                 "serval",
                 "european"
@@ -37,7 +37,7 @@
             "*-european": {
                 "base": "entity/kitten/kitten03"
             },
-            "*": {
+            "*-house": {
                 "base": "entity/kitten/kitten02",
                 "alternates": [
                     {
@@ -296,16 +296,10 @@
             {
                 "code": "raisable",
                 "hoursToGrow": 408,
-                "adultEntityCodesByType": {
-                    "cat-kitten": [
-                        "cats:cat-male",
-                        "cats:cat-female"
-                    ],
-                    "*": [
-                        "cats:cat-male-{type}",
-                        "cats:cat-female-{type}"
-                    ]
-                },
+                "adultEntityCodes": [
+                    "cats:cat-male-{type}",
+                    "cats:cat-female-{type}"
+                ],
                 "keepTexture": true
             },
             {
@@ -390,7 +384,7 @@
                     {
                         "code": "stayclosetoentity",
                         "priority": 1.5,
-                        "entityCode": "cat-female",
+                        "entityCode": "cat-female-house",
                         "movespeed": 0.02,
                         "animationSpeed": 2.5,
                         "maxDistance": 15,

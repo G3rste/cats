@@ -3,8 +3,8 @@
         "op": "addeach",
         "path": "/server/behaviors/11/aitasks/0/entityCodes/-",
         "value": [
-            "cat-male",
-            "cat-female",
+            "cat-male-house",
+            "cat-female-house",
             "cat-male-*",
             "cat-female-*"
         ],

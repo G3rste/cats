@@ -6,9 +6,9 @@
         {
             "code": "type",
             "states": [
-                "cat-male",
-                "cat-female",
-                "cat-kitten",
+                "cat-male-house",
+                "cat-female-house",
+                "cat-kitten-house",
                 "cat-male-serval",
                 "cat-female-serval",
                 "cat-kitten-serval",
@@ -22,9 +22,6 @@
         }
     ],
     "shapeByType": {
-        "*-cat-kitten": {
-            "base": "entity/kitten"
-        },
         "*-cat-kitten-*": {
             "base": "entity/kitten"
         },
@@ -33,17 +30,17 @@
         }
     },
     "texturesByType": {
-        "*-cat-male": {
+        "*-cat-male-house": {
             "skin": {
                 "base": "entity/cat/cat-male02"
             }
         },
-        "*-cat-female": {
+        "*-cat-female-house": {
             "skin": {
                 "base": "entity/cat/cat-male02"
             }
         },
-        "*-cat-kitten": {
+        "*-cat-kitten-house": {
             "kitten": {
                 "base": "entity/kitten/kitten02"
             }

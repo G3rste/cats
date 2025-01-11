@@ -1,11 +1,11 @@
 {
     "code": "cat-male",
-    "class": "EntityPet",
+    "class": "EntityAgent",
     "variantgroups": [
         {
             "code": "type",
             "states": [
-                "",
+                "house",
                 "ocelot",
                 "serval",
                 "european"
@@ -31,7 +31,7 @@
             "*-european": 0.9,
             "*-serval": 1.3,
             "*-ocelot": 1.1,
-            "*": 0.8
+            "*-house": 0.8
         },
         "textureByType": {
             "*-ocelot": {
@@ -43,7 +43,7 @@
             "*-european": {
                 "base": "entity/cat/cat-male03"
             },
-            "*": {
+            "*-house": {
                 "base": "entity/cat/cat-male02",
                 "alternates": [
                     {
