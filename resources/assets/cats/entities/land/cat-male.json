@@ -12,6 +12,9 @@
             ]
         }
     ],
+    "attributes": {
+        "minGenerationToAllowHealing": 0
+    },
     "hitboxSize": {
         "x": 0.7,
         "y": 0.5
@@ -172,6 +175,24 @@
             {
                 "code": "ropetieable",
                 "minGeneration": 2
+            },
+            {
+                "code": "mortallywoundable",
+                "healingRequiredForRescue": 1,
+                "whenBelowHealth": 3
+            },
+            {
+                "code": "health",
+                "currenthealthByType": {
+                    "*-ocelot": 15,
+                    "*-serval": 20,
+                    "*": 10
+                },
+                "maxhealthByType": {
+                    "*-ocelot": 15,
+                    "*-serval": 20,
+                    "*": 10
+                }
             }
         ],
         "animations": [
@@ -206,6 +227,13 @@
             {
                 "code": "sleep",
                 "animation": "sleep",
+                "easeInSpeed": 4,
+                "easeOutSpeed": 4,
+                "blendMode": "average"
+            },
+            {
+                "code": "wounded-idle",
+                "animation": "wounded-idle",
                 "easeInSpeed": 4,
                 "easeOutSpeed": 4,
                 "blendMode": "average"
@@ -312,6 +340,11 @@
                 "stepHeight": 1.1251
             },
             {
+                "code": "mortallywoundable",
+                "healingRequiredForRescue": 1,
+                "whenBelowHealth": 3
+            },
+            {
                 "code": "health",
                 "currenthealthByType": {
                     "*-ocelot": 15,
@@ -407,6 +440,7 @@
             },
             {
                 "code": "taskai",
+				"aiCreatureType": "LandCreature",
                 "aitasks": [
                     {
                         "code": "petmeleeattack",
