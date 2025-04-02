@@ -1,0 +1,242 @@
+[
+    {
+        "op": "add",
+        "path": "/animations/-",
+        "value": {
+			"name": "Enchant",
+			"code": "enchant",
+			"quantityframes": 60,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 1,
+					"elements": {
+						"Pelvis": { "offsetX": -3.0, "offsetY": -13.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"L Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"L Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 105.0 },
+						"R Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"R Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 111.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Pelvis": { "offsetX": 0.0, "offsetY": -14.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+        "file": "game:shapes/entity/land/bowtorn/surface.json"
+    },
+    {
+        "op": "add",
+        "path": "/animations/-",
+        "value": {
+			"name": "Enchant",
+			"code": "enchant",
+			"quantityframes": 60,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 1,
+					"elements": {
+						"Pelvis": { "offsetX": -3.0, "offsetY": -13.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"L Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"L Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 105.0 },
+						"R Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"R Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 111.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Pelvis": { "offsetX": 0.0, "offsetY": -14.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+        "file": "game:shapes/entity/land/bowtorn/deep.json"
+    },
+    {
+        "op": "add",
+        "path": "/animations/-",
+        "value": {
+			"name": "Enchant",
+			"code": "enchant",
+			"quantityframes": 60,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 1,
+					"elements": {
+						"Pelvis": { "offsetX": -3.0, "offsetY": -13.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"L Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"L Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 105.0 },
+						"R Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"R Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 111.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Pelvis": { "offsetX": 0.0, "offsetY": -14.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+        "file": "game:shapes/entity/land/bowtorn/corrupt.json"
+    },
+    {
+        "op": "add",
+        "path": "/animations/-",
+        "value": {
+			"name": "Enchant",
+			"code": "enchant",
+			"quantityframes": 60,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 1,
+					"elements": {
+						"Pelvis": { "offsetX": -3.0, "offsetY": -13.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"L Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"L Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 105.0 },
+						"R Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"R Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 111.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Pelvis": { "offsetX": 0.0, "offsetY": -14.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+        "file": "game:shapes/entity/land/bowtorn/gearfoot.json"
+    },
+    {
+        "op": "add",
+        "path": "/animations/-",
+        "value": {
+			"name": "Enchant",
+			"code": "enchant",
+			"quantityframes": 60,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 1,
+					"elements": {
+						"Pelvis": { "offsetX": -3.0, "offsetY": -13.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"L Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"L Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 105.0 },
+						"R Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"R Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 111.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Pelvis": { "offsetX": 0.0, "offsetY": -14.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+        "file": "game:shapes/entity/land/bowtorn/nightmare.json"
+    },
+    {
+        "op": "add",
+        "path": "/animations/-",
+        "value": {
+			"name": "Enchant",
+			"code": "enchant",
+			"quantityframes": 60,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 1,
+					"elements": {
+						"Pelvis": { "offsetX": -3.0, "offsetY": -13.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
+						"L Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"L Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 105.0 },
+						"R Thigh": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"R Calf": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 111.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 }
+					}
+				},
+				{
+					"frame": 30,
+					"elements": {
+						"Pelvis": { "offsetX": 0.0, "offsetY": -14.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Midsection": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 39.0 },
+						"Chest": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Neck3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		},
+        "file": "game:shapes/entity/land/bowtorn/tainted.json"
+    }
+]

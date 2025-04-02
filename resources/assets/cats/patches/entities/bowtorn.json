@@ -1,0 +1,37 @@
+[
+    {
+        "op": "add",
+        "path": "/server/behaviors/8/aitasks/-",
+        "value": {
+            "code": "freezeNear",
+            "entityCodes": [
+                "cat-*"
+            ],
+            "priorityByType": {
+                "*-surface": 5,
+                "*-deep": 3,
+                "*-tainted": 1.4,
+                "*-corrupt": 1.2,
+                "*-nightmare": 0.9,
+                "*-gearfoot": 0.9
+            },
+            "movespeed": 0.018,
+            "seekingRange": 8,
+            "animationSpeed": 1.0,
+            "animation": "enchant"
+        },
+        "file": "game:entities/land/bowtorn.json"
+    },
+    {
+        "op": "add",
+        "path": "/client/animations/-",
+        "value": {
+            "code": "enchant", 
+            "animation": "enchant",
+            "blendMode": "Average",
+            "animationSpeed": 1,
+            "weigth": 10
+        },
+        "file": "game:entities/land/bowtorn.json"
+    }
+]
