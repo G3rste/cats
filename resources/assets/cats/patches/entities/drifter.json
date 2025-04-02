@@ -28,7 +28,9 @@
         "value": {
             "code": "enchant", 
             "animation": "enchant",
-            "blendMode": "AddAverage"
+            "blendMode": "Average",
+            "animationSpeed": 2,
+            "weigth": 10
         },
         "file": "game:entities/land/drifter.json"
     }
