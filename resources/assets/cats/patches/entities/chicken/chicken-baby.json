@@ -8,6 +8,6 @@
             "cat-male-*",
             "cat-female-*"
         ],
-        "file": "game:entities/land/chicken-baby.json"
+        "file": "game:entities/animal/bird/chicken-baby.json"
     }
 ]

@@ -16,12 +16,8 @@ namespace Cats
         private float seekingRange;
         private long lastSearchTotalMs;
 
-        public AiTaskFreezeNear(EntityAgent entity) : base(entity)
+        public AiTaskFreezeNear(EntityAgent entity, JsonObject taskConfig, JsonObject aiConfig) : base(entity, taskConfig, aiConfig)
         {
-        }
-        public override void LoadConfig(JsonObject taskConfig, JsonObject aiConfig)
-        {
-            base.LoadConfig(taskConfig, aiConfig);
             seekingRange = taskConfig["seekingRange"].AsFloat(8);
             entityCodes.AddRange(taskConfig["entityCodes"].AsArray<string>(new string[0]));
             partitionUtil = entity.Api.ModLoader.GetModSystem<EntityPartitioning>();

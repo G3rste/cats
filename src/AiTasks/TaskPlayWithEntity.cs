@@ -15,16 +15,10 @@ namespace Cats
 
         private bool finished = false;
         private long finishedAt;
-        public AiTaskPlayWithEntity(EntityAgent entity) : base(entity)
+        public AiTaskPlayWithEntity(EntityAgent entity, JsonObject taskConfig, JsonObject aiConfig) : base(entity, taskConfig, aiConfig)
         {
-        }
-
-        public override void LoadConfig(JsonObject taskConfig, JsonObject aiConfig)
-        {
-            base.LoadConfig(taskConfig, aiConfig);
             playAnimations = taskConfig["playAnimations"].AsArray<string>(new string[0]);
         }
-
         public override bool ShouldExecute()
         {
             long ellapsedMs = entity.World.ElapsedMilliseconds;

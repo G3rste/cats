@@ -20,7 +20,7 @@
             "animationSpeed": 1.0,
             "animation": "enchant"
         },
-        "file": "game:entities/land/bowtorn.json"
+        "file": "game:entities/lore/bowtorn.json"
     },
     {
         "op": "add",
@@ -32,6 +32,6 @@
             "animationSpeed": 1,
             "weigth": 10
         },
-        "file": "game:entities/land/bowtorn.json"
+        "file": "game:entities/lore/bowtorn.json"
     }
 ]

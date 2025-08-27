@@ -8,30 +8,20 @@
                 "cat-*"
             ],
             "priorityByType": {
-                "*-normal": 2.4,
+                "*-surface": 4,
                 "*-deep": 1.9,
                 "*-tainted": 1.4,
                 "*-corrupt": 1.2,
                 "*-nightmare": 0.9,
-                "*-double-headed": 0.9
+                "*-stilt": 0.9,
+                "*-bellhead": 0.9,
+                "*-deepsplit": 0.9
             },
             "movespeed": 0.018,
             "seekingRange": 8,
             "animationSpeed": 1.0,
-            "animation": "enchant"
+            "animation": "headbang"
         },
-        "file": "game:entities/land/drifter.json"
-    },
-    {
-        "op": "add",
-        "path": "/client/animations/-",
-        "value": {
-            "code": "enchant", 
-            "animation": "enchant",
-            "blendMode": "Average",
-            "animationSpeed": 2,
-            "weigth": 10
-        },
-        "file": "game:entities/land/drifter.json"
+        "file": "game:entities/lore/shiver.json"
     }
 ]
