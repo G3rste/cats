@@ -216,6 +216,13 @@
                 }
             },
             {
+                "code": "dead",
+                "animation": "death",
+                "animationSpeed": 1.25,
+                "weight": 10,
+                "blendMode": "average"
+            },
+            {
                 "code": "idle",
                 "animation": "idle",
                 "blendMode": "addAverage",
