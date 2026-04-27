@@ -1,0 +1,157 @@
+{
+    "code": "creature",
+    "class": "ItemCreature",
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
+                "cat-male-house",
+                "cat-female-house",
+                "cat-kitten-house",
+                "cat-male-serval",
+                "cat-female-serval",
+                "cat-kitten-serval",
+                "cat-male-european",
+                "cat-female-european",
+                "cat-kitten-european",
+                "cat-male-ocelot",
+                "cat-female-ocelot",
+                "cat-kitten-ocelot"
+            ]
+        }
+    ],
+    "shapeByType": {
+        "*-cat-kitten-*": {
+            "base": "entity/kitten"
+        },
+        "*": {
+            "base": "entity/cat"
+        }
+    },
+    "texturesByType": {
+        "*-cat-male-house": {
+            "skin": {
+                "base": "entity/cat/cat-male02"
+            }
+        },
+        "*-cat-female-house": {
+            "skin": {
+                "base": "entity/cat/cat-male02"
+            }
+        },
+        "*-cat-kitten-house": {
+            "kitten": {
+                "base": "entity/kitten/kitten02"
+            }
+        },
+        "*-cat-male-european": {
+            "skin": {
+                "base": "entity/cat/cat-male03"
+            }
+        },
+        "*-cat-female-european": {
+            "skin": {
+                "base": "entity/cat/cat-male03"
+            }
+        },
+        "*-cat-kitten-european": {
+            "kitten": {
+                "base": "entity/kitten/kitten03"
+            }
+        },
+        "*-cat-male-serval": {
+            "skin": {
+                "base": "entity/cat/cat-male01"
+            }
+        },
+        "*-cat-female-serval": {
+            "skin": {
+                "base": "entity/cat/cat-male01"
+            }
+        },
+        "*-cat-kitten-serval": {
+            "kitten": {
+                "base": "entity/kitten/kitten01"
+            }
+        },
+        "*-cat-male-ocelot": {
+            "skin": {
+                "base": "entity/cat/cat-male11"
+            }
+        },
+        "*-cat-female-ocelot": {
+            "skin": {
+                "base": "entity/cat/cat-male11"
+            }
+        },
+        "*-cat-kitten-ocelot": {
+            "kitten": {
+                "base": "entity/kitten/kitten11"
+            }
+        }
+    },
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "items": [
+            "*"
+        ],
+        "creatures": [
+            "*"
+        ]
+    },
+    "materialDensity": 600,
+    "guiTransformByType": {
+        "creature-cat-*": {
+            "rotate": true,
+            "translation": {
+                "x": 2,
+                "y": 0.6,
+                "z": 0
+            },
+            "rotation": {
+                "x": 4,
+                "y": -59,
+                "z": -180
+            },
+            "origin": {
+                "x": 0.5,
+                "y": 0.3,
+                "z": 0.5
+            },
+            "scale": 1.7
+        }
+    },
+    "tpHandTransformByType": {
+        "creature-cat-*": {
+            "translation": {
+                "x": -1,
+                "y": -0.6,
+                "z": -0.7
+            },
+            "rotation": {
+                "x": -180,
+                "y": 0,
+                "z": -156
+            },
+            "scale": 0.5
+        }
+    },
+    "fpHandTransformByType": {
+        "creature-cat-*": {
+            "translation": {
+                "x": 0.4,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": -180,
+                "y": -96,
+                "z": -180
+            },
+            "scale": 1.16
+        }
+    }
+}

@@ -1,4 +1,6 @@
 lib
 obj
 bin
-*.sln
+cats.sln
+Releases
+/.vs/*

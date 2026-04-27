@@ -1,0 +1,15 @@
+{
+    "type": "code",
+    "modid": "cats",
+    "name": "Cats",
+    "side": "universal",
+    "authors": [
+        "G3rste"
+    ],
+    "description": "Mod that introduces cats as a new pet to vintage story.",
+    "version": "5.0.0",
+    "dependencies": {
+        "game": "1.22.0",
+        "petai": "5.0.0"
+    }
+}
