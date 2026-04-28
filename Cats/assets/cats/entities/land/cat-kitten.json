@@ -294,7 +294,7 @@
                 "code": "breathe"
             },
             {
-                "code": "raisable",
+                "code": "grow",
                 "hoursToGrow": 408,
                 "adultEntityCodes": [
                     "cats:cat-male-{type}",
