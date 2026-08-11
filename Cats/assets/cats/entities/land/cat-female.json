@@ -112,12 +112,6 @@
                         "cooldown": 3
                     },
                     {
-                        "code": "fishfillet-raw",
-                        "domain": "primitivesurvival",
-                        "progress": 0.4,
-                        "cooldown": 3
-                    },
-                    {
                         "code": "fish-raw",
                         "progress": 0.4,
                         "cooldown": 3
@@ -281,12 +275,6 @@
                     {
                         "code": "poultry-raw",
                         "progress": 0.2,
-                        "cooldown": 3
-                    },
-                    {
-                        "code": "fishfillet-raw",
-                        "domain": "primitivesurvival",
-                        "progress": 0.4,
                         "cooldown": 3
                     },
                     {
